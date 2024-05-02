@@ -1,0 +1,17 @@
+.contact-layout{
+   position: relative;
+}
+
+.contact-layout-image{
+   width: 100%;
+}
+
+.contact-layout-text{
+   position: absolute;
+   bottom: 50%;
+   left: 50%;
+   transform: translate(-50%, 50%);
+
+   font-size: 2.2rem;
+   font-weight: 600;
+}

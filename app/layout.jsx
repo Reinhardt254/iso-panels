@@ -1,7 +1,15 @@
-import { Inter } from "next/font/google";
+import { Inter, Oranienbaum } from "next/font/google";
 import "./globals.css";
+import "../styles/home.css"
+import "../styles/products.css"
+import "../styles/about.css"
+import "../styles/contact.css"
+import "../styles/navbar.css"
+import "../styles/footer.css"
+import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const font = Oranienbaum({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
   title: "ISO",
@@ -11,7 +19,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={font.className}>
+        <div class="navbar-main">
+          <Navbar />
+        </div>
+        {children}
+          <Footer />
+        </body>
     </html>
   );
 }

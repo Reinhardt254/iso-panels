@@ -5,6 +5,10 @@ body {
    background-color: white;
  }
 
+ a{
+   text-decoration: none;
+ }
+
  .purple{
    background-color: #58669F;
  }

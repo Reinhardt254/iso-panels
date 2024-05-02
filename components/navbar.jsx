@@ -9,7 +9,7 @@ const Navbar = () => {
     <div class='navbar-container'>
       <div class='navbar-logo'>
          <img
-            src="./logo.png"
+            src="./Logo.png"
             alt="logo"
             class="navbar-logo-img"
             loading='lazy'

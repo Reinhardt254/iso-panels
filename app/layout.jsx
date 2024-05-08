@@ -6,6 +6,7 @@ import "../styles/about.css"
 import "../styles/contact.css"
 import "../styles/navbar.css"
 import "../styles/footer.css"
+import "../styles/productscategories.css"
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 

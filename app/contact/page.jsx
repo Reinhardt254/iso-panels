@@ -7,7 +7,7 @@ const Contact
      <div class="contact">
       <div class="contact-layout">
          <img
-           src="./Hero .png"
+           src="./contact.jpg"
            alt="contact-layout-image"
            class="contact-layout-image"
            loading="lazy"

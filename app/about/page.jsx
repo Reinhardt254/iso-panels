@@ -1,12 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
-<section>
+    <section>
+      {/* <!-- ======================================================Navbar======================= --> */}
+
       <div class="about">
         <div class="about-layout-container">
           <img
-            src="./Hero .png"
+            src="./about.jpg"
             alt="about-layout-image"
             class="about-layout-image"
             loading="lazy"
@@ -19,7 +21,7 @@ const About = () => {
             <img
               src="./About us.png"
               alt="How-it-started-image"
-              class="how-it-started-image"
+              class="how-it-started-image small-hidden"
             />
             <div>
               <div class="how-it-started-h1">How It Started</div>
@@ -37,6 +39,12 @@ const About = () => {
                 Limited.
               </div>
             </div>
+            {/* <!-- ---------------small how it started image------------------- --> */}
+            <img
+              src="./About us.png"
+              alt="How-it-started-image large-hidden"
+              class="how-it-started-image large-hidden"
+            />
           </div>
         </div>
 
@@ -59,15 +67,25 @@ const About = () => {
           </div>
           <div class="about-mission-img">
             <img
-              src="./Products  1_.png"
+              src="./mission1.jpg"
               alt="about-mission-image"
               class="about-mission-image about-top-img"
               loading="lazy"
             />
             <img
-              src="./Products 2.png"
+              src="./mission2.jpg"
               alt="about-mission-image"
               class="about-mission-image about-bottom-img"
+              loading="lazy"
+            />
+          </div>
+
+          {/* <!-- --------image small devices------- --> */}
+          <div class="about-mission-image-container large-hidden">
+            <img
+              src="./mission1.jpg"
+              alt="about-mission-image-sm"
+              class="about-mission-image-sm"
               loading="lazy"
             />
           </div>
@@ -76,7 +94,7 @@ const About = () => {
         <div class="about-vision">
           <div class="about-vision-image-container">
             <img
-              src="./Products 3.png"
+              src="./vision.jpg"
               alt="about-vision-image"
               class="about-vision-image"
             />
@@ -88,10 +106,19 @@ const About = () => {
               DURABLE AND QUALITY PANELS
             </div>
           </div>
+
+          <div class="about-mission-image-container large-hidden">
+            <img
+              src="./vision.jpg"
+              alt="about-mission-image-sm"
+              class="about-mission-image-sm"
+              loading="lazy"
+            />
+          </div>
         </div>
       </div>
-    </section>   
-  )
-}
+    </section>
+  );
+};
 
-export default About
+export default About;

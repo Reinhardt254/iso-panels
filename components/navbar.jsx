@@ -40,7 +40,10 @@ const Navbar = () => {
         />
       </div>
       {toggle && (
-        <div class="toggle-container">
+        <div 
+          class="toggle-container"
+          id="menu"
+          >
           <div className="toggle-content">
             <a href="/">Home</a>
             <a href="/about">About Us</a>

@@ -4,6 +4,8 @@
 
 .contact-layout-image{
    width: 100%;
+   min-height: 50vh;
+   max-height: 90vh;
 }
 
 .contact-layout-text{

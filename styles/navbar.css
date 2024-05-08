@@ -11,7 +11,7 @@
    align-items: center;
    box-sizing: border-box;
 
-   background-color: white;
+   background-color: rgba(0, 0, 0, 0.5);
  }
  
  .navbar-container {
@@ -36,6 +36,7 @@
    width: 35px;
    padding-right: 0.5rem;
    cursor: pointer;
+   display: none;
  }
  
  .navbar-links{
@@ -52,7 +53,7 @@
    font-size: 1.2rem;
    font-weight: 600;
    cursor: pointer;
-   color: black;
+   color: white;
  }
  
  .navbar-links a:hover {
@@ -98,6 +99,22 @@
    .toggle-icon-container {
      display: block;
    }
+
+   .navbar-main {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+ 
+    background-color: white;
+  }
+  
  }
  
  .toggle-icon {
@@ -107,7 +124,6 @@
  }
  
  #menu {
-   display: none;
    position: fixed;
    top: 0;
    left: 0;

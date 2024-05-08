@@ -381,7 +381,7 @@ const HomePage = () => {
                trust of clients across Kenya and beyond.
              </div>
              <div class="driving-innovation-button button">
-               <a href="/Contact"> Contact Us For Free Consultation </a>
+               <a href="/contact"> Contact Us For Free Consultation </a>
              </div>
            </div>
          </div>

@@ -26,7 +26,7 @@ const Footer = () => {
       </div>
      </div>
      <div class="footer-rights">
-      <div class="footer-rights-h1">2024 ISO PANELS. All Rights Reserved</div>
+      <div class="footer-rights-h1">Ⓒ 2024 ISO PANELS. All Rights Reserved</div>
       </div>
     </div>
   )

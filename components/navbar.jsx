@@ -28,7 +28,7 @@ const Navbar = () => {
           class="search-icon"
           loading="lazy"
         />
-        <a href="/Contact">Contact Us</a>
+        <a href="/contact">Contact Us</a>
       </div>
 
       <div onClick={() => setToggle(true)} class="toggle-icon-container">

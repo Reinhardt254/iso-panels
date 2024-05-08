@@ -61,7 +61,7 @@ const HomePage = () => {
                performance nad durability.
              </div>
              <div class="home-about-button about-p">
-               <a href="/About">Read More</a>
+               <a href="/about">Read More</a>
              </div>
            </div>
          </div>
@@ -114,7 +114,7 @@ const HomePage = () => {
              </div>
            </div>
 
-           <div class="why-choose-us-cards gray-dark mt">
+           <div class="why-choose-us-cards mt">
              <img
                src="./Icon 2.png"
                alt="Top quality"
@@ -132,7 +132,7 @@ const HomePage = () => {
              </div>
            </div>
 
-           <div class="why-choose-us-cards purple mb">
+           <div class="why-choose-us-cards mb">
              <img
                src="./Icon 3.png"
                alt="Top quality"
@@ -154,7 +154,7 @@ const HomePage = () => {
            </div>
 
            <div
-             class="why-choose-us-cards why-choose-us-cards-rbr gray-light mt"
+             class="why-choose-us-cards why-choose-us-cards-rbr mt"
            >
              <img
                src="./Icon 4.png"

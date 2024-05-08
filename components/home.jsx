@@ -175,7 +175,7 @@ const HomePage = () => {
          </div>
 
          <div class="why-choose-us-button">
-           <a href="/Contact">Contact Us For Free Consultation</a>
+           <a href="/contact">Contact Us For Free Consultation</a>
          </div>
        </div>
 

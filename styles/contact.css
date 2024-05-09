@@ -1,3 +1,7 @@
+.cantact{
+   min-height: 100vh;
+}
+
 .contact-layout{
    position: relative;
 }
@@ -6,6 +10,7 @@
    width: 100%;
    min-height: 50vh;
    max-height: 90vh;
+   filter: brightness(50%);
 }
 
 .contact-layout-text{
@@ -16,4 +21,5 @@
 
    font-size: 2.2rem;
    font-weight: 600;
+   color: white;
 }

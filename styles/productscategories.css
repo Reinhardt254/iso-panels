@@ -15,6 +15,7 @@
 .products-categories-layout-image{
    width: 100%;
    height: auto;
+   filter: brightness(70%);
 
    min-height: 50vh;
    max-height: 90vh;

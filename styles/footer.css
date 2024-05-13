@@ -115,7 +115,7 @@
      }
  }
  
- @media only screen and (max-width: 500px) {
+ @media only screen and (max-width: 600px) {
    .footer-content {
      box-sizing: border-box;
      display: flex;
@@ -151,7 +151,7 @@
      padding-right: 0rem;
      padding-top: 1rem;
      cursor: pointer;
-     font-size: 1rem;
+     font-size: 1.2rem;
    }
  
    .footer-address {
@@ -161,6 +161,7 @@
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     font-size: 1.2rem;
    }
  
    .footer-address-h1 {

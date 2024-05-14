@@ -18,12 +18,14 @@ const About = () => {
 
         <div class="how-it-started">
           <div class="how-it-started-container">
-            <img
-              src="./About us.png"
-              alt="How-it-started-image"
-              class="how-it-started-image small-hidden"
-            />
-            <div>
+            <div class="how-it-started-image-container">
+              <img
+                src="./about2.jpg"
+                alt="How-it-started-image"
+                class="how-it-started-image small-hidden"
+              />
+            </div>
+            <div class="how-it-started-text">
               <div class="how-it-started-h1">How It Started</div>
               <div class="how-it-started-p">
                 Incorporated on December 20th, 2002, ISO Panels Limited has a
@@ -41,7 +43,7 @@ const About = () => {
             </div>
             {/* <!-- ---------------small how it started image------------------- --> */}
             <img
-              src="./About us.png"
+              src="./about2.jpg"
               alt="How-it-started-image large-hidden"
               class="how-it-started-image large-hidden"
             />
@@ -102,16 +104,16 @@ const About = () => {
           <div class="about-vision-text">
             <div class="about-vision-h1">Vision</div>
             <div class="about-vision-p">
-              TO ENHANCE AND RETAIN OUR CUSTOMERS BASE THROUGH PROVISION OF
-              DURABLE AND QUALITY PANELS
+              To enhance and retain our customers base through provision of
+              durable and quality panels
             </div>
           </div>
 
-          <div class="about-mission-image-container large-hidden">
+          <div class="about-mission-image-container large-hidden about-vision-image-sm">
             <img
               src="./vision.jpg"
               alt="about-mission-image-sm"
-              class="about-mission-image-sm"
+              class="about-mission-image-sm about-vision-image-sm"
               loading="lazy"
             />
           </div>

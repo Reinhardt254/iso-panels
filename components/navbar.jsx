@@ -8,18 +8,20 @@ const Navbar = () => {
   return (
     <div class="navbar-container">
       <div class="navbar-logo">
+        <a href="/">
         <img
           src="/Logo.png"
           alt="logo"
           class="navbar-logo-img"
           loading="lazy"
         />
+        </a>
       </div>
       <div class="navbar-links">
         <a href="/">Home</a>
         <a href="/about">About Us</a>
         <a href="/products">Products</a>
-        <a href="/contact">Contact</a>
+        {/* <a href="/contact">Contact</a> */}
       </div>
       <div class="contact-btn">
         <img

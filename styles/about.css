@@ -18,7 +18,7 @@
   }
 }
 
-.about{
+.about {
   background-color: white;
 }
 
@@ -31,7 +31,7 @@
 .about-layout-image {
   width: 100%;
   height: auto;
-  max-height: 90vh;
+  max-height: 75vh;
   min-height: 50vh;
   filter: brightness(60%);
 }
@@ -74,15 +74,32 @@
 /* ===How It Started=== */
 
 .how-it-started-container {
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   box-sizing: border-box;
   background-color: white;
+
+  padding-top: 3rem;
+}
+
+.how-it-started-image-container {
+  width: 90%;
+  padding-left: 10%;
 }
 
 .how-it-started-image {
-  width: 50vw;
+  width: 30vw;
+  height: auto;
+  border-top-left-radius: 0rem;
+  border-bottom-right-radius: 4rem;
+}
+
+.how-it-started-text {
+  width: 100%;
+  padding-left: 0rem;
 }
 
 .how-it-started-h1 {
@@ -94,12 +111,36 @@
 .how-it-started-p {
   font-size: 1.2rem;
   padding-bottom: 1rem;
+  padding-right: 20%;
 }
 
 @media only screen and (max-width: 900px) {
   .how-it-started-p {
     font-size: 1.2rem;
     padding-bottom: 1rem;
+    padding-right: 0%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .how-it-started-container {
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+  }
+
+  .how-it-started-p {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    padding-right: 30%;
+  }
+
+  .how-it-started-image-container {
+    padding-left: 15%;
+  }
+  
+  .how-it-started-image {
+    width: 25vw;
+    height: auto;
   }
 }
 
@@ -111,11 +152,19 @@
     align-items: center;
     box-sizing: border-box;
     padding-left: 0rem;
-    padding-right: 0.8rem;
+    padding-right: 0rem;
+    padding-top: 0.5rem;
   }
 
   .how-it-started-image {
     width: 100%;
+  }
+
+  .how-it-started-image {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
   }
 
   .how-it-started-h1 {
@@ -128,7 +177,7 @@
 
   .how-it-started-p {
     font-size: 1.1rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     padding-left: 0.8rem;
   }
 }
@@ -221,11 +270,11 @@
   .about-mission {
     display: flex;
     flex-direction: column;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
     padding-top: 1rem;
-    margin-top: 0.5rem;
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
+    margin-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
     background-color: #fbfbfb;
   }
 
@@ -243,6 +292,8 @@
   .about-mission-text {
     width: 100%;
     padding-bottom: 1rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
   }
 
   .about-mission-h1 {
@@ -342,7 +393,7 @@
 }
 
 .about-vision-h1 {
-  text-align: center;
+  text-align: start;
   font-size: 2.4rem;
   font-weight: 600;
 }
@@ -351,14 +402,13 @@
   padding-left: 0%;
   padding-top: 1rem;
 
-  text-align: center;
+  text-align: start;
 
   font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 900px) {
   .about-vision-h1 {
-    text-align: center;
     font-size: 2.4rem;
     font-weight: 600;
   }
@@ -376,17 +426,21 @@
     width: 100%;
     height: 100%;
     padding-top: 2rem;
-    padding-bottom: 1rem;
-    margin-bottom: 2rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
 
   .about-vision-image-container {
     display: none;
+  }
+
+  .about-vision-image-sm{
+    background-color: black;
   }
 
   .about-vision-text {
@@ -395,18 +449,16 @@
     padding-left: 0.8rem;
     padding-bottom: 1.5rem;
     box-sizing: border-box;
-    text-align: center;
   }
 
   .about-vision-h1 {
-    text-align: center;
     font-size: 1.6rem;
     font-weight: 600;
   }
 
   .about-vision-p {
     padding-left: 0%;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     font-weight: 500;
     letter-spacing: 0.06rem;
     line-height: 1.5rem;

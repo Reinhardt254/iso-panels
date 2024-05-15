@@ -162,7 +162,7 @@
 
   .how-it-started-image {
     width: 100%;
-    height: auto;
+    max-height: 100vw;
     border-top-left-radius: 0rem;
     border-bottom-right-radius: 0rem;
   }
@@ -283,7 +283,9 @@
   }
 
   .about-mission-image-sm {
-    width: 100%;
+    width: 100vw;
+    height: auto;
+    /* max-height: 120vw; */
   }
 
   .about-mission-image-container {

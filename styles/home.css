@@ -710,7 +710,7 @@ a {
 
   .why-choose-us-cards {
     width: 100%;
-    min-height: 0px;
+    min-height: 90vw;
     box-sizing: border-box;
     padding: 2rem 1rem 3rem 1rem;
     margin: 0rem;
@@ -724,7 +724,7 @@ a {
   }
 
   .choose-p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .choose-card-btn a {

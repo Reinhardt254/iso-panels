@@ -24,9 +24,6 @@ const HomePage = () => {
                 <a href="/about" class="home-layout-btn-contact">
                   LEARN MORE
                 </a>
-                <a href="/products" class="home-layout-btn-products">
-                  OUR PRODUCTS
-                </a>
               </div>
             </div>
           </div>

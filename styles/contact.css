@@ -5,12 +5,14 @@
 
 .contact-layout{
    position: relative;
+   background-color: black;
+   bottom: 0;
 }
 
 .contact-layout-image{
    width: 100%;
    min-height: 50vh;
-   max-height: 90vh;
+   max-height: 75vh;
    filter: brightness(50%);
 }
 

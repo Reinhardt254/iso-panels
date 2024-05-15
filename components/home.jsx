@@ -65,7 +65,7 @@ const HomePage = () => {
                 </div>
               </div>
               <img
-                src="./homeabout.jpg"
+                src="./homeabout2.jpg"
                 alt="about-image"
                 class="home-about-image large-hidden"
               />

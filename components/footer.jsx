@@ -21,8 +21,11 @@ const Footer = () => {
       </div>
 
       <div class="footer-address">
-         <div class="footer-address-h1">Naivasha,</div>
+         <div class="footer-address-h1">Naivasha</div>
          <div class="footer-address-h1">Kenya</div>
+         <div class="footer-address-h1">info@isokenya.com</div>
+         <div class="footer-address-h1">+254 234 56789</div>
+         <div class="footer-address-h1">+254 234 56789</div>
       </div>
      </div>
      <div class="footer-rights">

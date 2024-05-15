@@ -24,12 +24,12 @@ const Navbar = () => {
         {/* <a href="/contact">Contact</a> */}
       </div>
       <div class="contact-btn">
-        <img
-          src="./search-icon.png"
+        {/* <img
+          src="./search.png"
           alt="logo"
-          class="search-icon"
+          class="search-icons"
           loading="lazy"
-        />
+        /> */}
         <a href="/contact">Contact Us</a>
       </div>
 

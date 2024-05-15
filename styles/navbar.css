@@ -90,6 +90,12 @@
    background-color: white;
    color: #58669f;
  }
+
+ /* .search-icons{
+  height: 25px;
+  width: 25px;
+  margin-right: 1rem;
+ } */
  
  .toggle-icon-container {
    display: none;

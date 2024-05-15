@@ -474,8 +474,8 @@ a {
 
 @media only screen and (max-width: 600px) {
   .home-why-choose-us {
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
     padding-top: 2rem;
     /* background-color: #ffffff; */
   }

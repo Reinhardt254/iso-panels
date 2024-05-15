@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section>
       {/* <!-- ======================================================Navbar======================= --> */}
-
+      
       <div class="about">
         <div class="about-layout-container">
           <img

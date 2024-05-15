@@ -92,7 +92,6 @@ const HomePage = () => {
                   We pride ourselves on delivering exceptional quality products.
                 </div>
               </div>
-
               <div class="why-choose-us-cards mt">
                 <img
                   src="./Icon 2.png"

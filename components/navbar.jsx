@@ -25,7 +25,7 @@ const Navbar = () => {
       </div>
       <div class="contact-btn">
         {/* <img
-          src="./search.png"
+          src="./search.png" 
           alt="logo"
           class="search-icons"
           loading="lazy"

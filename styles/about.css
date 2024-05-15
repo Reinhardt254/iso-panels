@@ -153,7 +153,7 @@
     box-sizing: border-box;
     padding-left: 0rem;
     padding-right: 0rem;
-    padding-top: 0.5rem;
+    padding-top: 0rem;
   }
 
   .how-it-started-image {
@@ -167,6 +167,10 @@
     border-bottom-right-radius: 0rem;
   }
 
+  .how-it-started-text{
+    padding-bottom: 1rem;
+  }
+
   .how-it-started-h1 {
     font-weight: 600;
     font-size: 1.6rem;
@@ -177,7 +181,7 @@
 
   .how-it-started-p {
     font-size: 1.1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     padding-left: 0.8rem;
   }
 }

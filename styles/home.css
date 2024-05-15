@@ -753,12 +753,12 @@ a {
   }
 
   .why-choose-us-cards-ltr {
-    border-top-right-radius: 60px;
+    border-top-right-radius: 0px;
     border-top-left-radius: 0px;
   }
 
   .why-choose-us-cards-rbr {
-    border-bottom-left-radius: 60px;
+    border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
   }
 }

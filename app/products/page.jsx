@@ -18,7 +18,13 @@ const Products = () => {
           <img
             src="./products.jpg"
             alt="Products-Home-Page"
-            class="product-layout-image"
+            class="product-layout-image small-hidden"
+            loading="lazy"
+          />
+          <img
+            src="./mobile/productmob.jpg"
+            alt="Products-Home-Page"
+            class="product-layout-image large-hidden"
             loading="lazy"
           />
           <div class="product-layout-text">Products</div>

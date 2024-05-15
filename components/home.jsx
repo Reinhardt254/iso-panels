@@ -6,7 +6,8 @@ const HomePage = () => {
       <div class="home">
         <div class="home-container">
           <div class="home-layout">
-            <img src="./home.jpg" alt="Home-image" class="home-layout-image" />
+            <img src="./home.jpg" alt="Home-image" class="home-layout-image small-hidden" />
+            <img src="./mobile/homemob.jpg" alt="Home-image" class="home-layout-image large-hidden" />
             <div class="home-layout-content">
               <div class="home-layout-heading">
                 QUALITY ROOFING AND WALL PANELS
@@ -60,8 +61,9 @@ const HomePage = () => {
                   <a href="/about">Read More</a>
                 </div>
               </div>
+              {/* -----------------mob image----------------- */}
               <img
-                src="./homeabout2.jpg"
+                src="./mobile/homeaboutmob.jpg"
                 alt="about-image"
                 class="home-about-image large-hidden"
               />

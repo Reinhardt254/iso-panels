@@ -4,13 +4,20 @@ const About = () => {
   return (
     <section>
       {/* <!-- ======================================================Navbar======================= --> */}
-      
+
       <div class="about">
         <div class="about-layout-container">
           <img
             src="./about.jpg"
             alt="about-layout-image"
-            class="about-layout-image"
+            class="about-layout-image small-hidden"
+            loading="lazy"
+          />
+          {/* ---------mob------- */}
+          <img
+            src="./mobile/aboutmob.jpg"
+            alt="about-layout-image"
+            class="about-layout-image large-hidden"
             loading="lazy"
           />
           <div class="about-layout-text">About Us</div>
@@ -85,7 +92,7 @@ const About = () => {
           {/* <!-- --------image small devices------- --> */}
           <div class="about-mission-image-container large-hidden">
             <img
-              src="./mission1.jpg"
+              src="./mobile/missionmob.jpg"
               alt="about-mission-image-sm"
               class="about-mission-image-sm"
               loading="lazy"
@@ -108,10 +115,10 @@ const About = () => {
               durable and quality panels
             </div>
           </div>
-
+          {/* ----------mobile--------- */}
           <div class="about-mission-image-container large-hidden about-vision-image-sm">
             <img
-              src="./vision.jpg"
+              src="./mobile/visionmob.jpg"
               alt="about-mission-image-sm"
               class="about-mission-image-sm about-vision-image-sm"
               loading="lazy"

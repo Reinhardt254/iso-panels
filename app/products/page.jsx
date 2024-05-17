@@ -44,9 +44,12 @@ const Products = () => {
                   <div class="overlay-content" id="overlay-content">
                     <div class="home-product-card-overlay">
                       <div class="home-product-card-overlay-text">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibhLorem ipsum dolor sit amet,
-                        consectetuer adipiscing elit, sed diam nonummy nibh
+                        We manufacture a wide range of high-quality insulation
+                        panels and accompanying accessories designed to optimize
+                        thermal performance and structural integrity for roofing
+                        and wall applications in refrigerated cold rooms,
+                        controlled environment spaces, model housing units,
+                        commercial kiosks, and more.
                       </div>
 
                       <div onClick={() => setPanel(false)}>
@@ -90,9 +93,10 @@ const Products = () => {
                   <div class="overlay-content" id="overlay-content">
                     <div class="home-product-card-overlay">
                       <div class="home-product-card-overlay-text">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibhLorem ipsum dolor sit amet,
-                        consectetuer adipiscing elit, sed diam nonummy nibh1
+                        Our durable aluminum profiles are engineered to
+                        seamlessly integrate with our insulation panels,
+                        offering enhanced strength, flexibility, and aesthetic
+                        appeal for various construction projects.
                       </div>
 
                       <div onClick={() => setAluminium(false)}>
@@ -136,9 +140,11 @@ const Products = () => {
                   <div class="overlay-content" id="overlay-content">
                     <div class="home-product-card-overlay">
                       <div class="home-product-card-overlay-text">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibhLorem ipsum dolor sit amet,
-                        consectetuer adipiscing elit, sed diam nonummy nibh
+                        Meticulously crafted to withstand harsh environmental
+                        conditions while maintaining exceptional thermal
+                        insulation properties, our roofing sheets are adequately
+                        galvanized, coated, and cold-rolled to various profiles
+                        to suit customer preferences.
                       </div>
 
                       <div onClick={() => setRoofing(false)}>
@@ -182,9 +188,11 @@ const Products = () => {
                   <div class="overlay-content" id="overlay-content">
                     <div class="home-product-card-overlay">
                       <div class="home-product-card-overlay-text">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibhLorem ipsum dolor sit amet,
-                        consectetuer adipiscing elit, sed diam nonummy nibh9
+                        Ensure precise temperature control and optimal storage
+                        conditions with our advanced cold room equipment.
+                        Featuring innovative refrigeration systems and insulated
+                        panels, our equipment is tailored to meet the specific
+                        needs of cold storage facilities.
                       </div>
 
                       <div onClick={() => setColdRoom(false)}>
@@ -228,9 +236,10 @@ const Products = () => {
                   <div class="overlay-content" id="overlay-content">
                     <div class="home-product-card-overlay">
                       <div class="home-product-card-overlay-text">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibhLorem ipsum dolor sit amet,
-                        consectetuer adipiscing elit, sed diam nonummy nibh9
+                        Enhance indoor comfort and air quality with our range of
+                        high-performance air conditioning equipment, including
+                        energy-efficient systems and components designed for
+                        residential, commercial, and industrial applications.
                       </div>
 
                       <div onClick={() => setAirCondition(false)}>
@@ -276,9 +285,11 @@ const Products = () => {
                   <div class="overlay-content" id="overlay-content">
                     <div class="home-product-card-overlay">
                       <div class="home-product-card-overlay-text">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibhLorem ipsum dolor sit amet,
-                        consectetuer adipiscing elit, sed diam nonummy nibh9
+                        Trust our expert team for seamless installation of
+                        heating, ventilation, and air conditioning (HVAC)
+                        systems. We deliver efficient climate control solutions
+                        tailored to your project requirements with meticulous
+                        attention to detail.
                       </div>
 
                       <div onClick={() => setHvac(false)}>
@@ -322,9 +333,11 @@ const Products = () => {
                   <div class="overlay-content" id="overlay-content">
                     <div class="home-product-card-overlay">
                       <div class="home-product-card-overlay-text">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibhLorem ipsum dolor sit amet,
-                        consectetuer adipiscing elit, sed diam nonummy nibh9
+                        Benefit from our specialized expertise and comprehensive
+                        consultancy services. We guide you through every stage
+                        of your project, from initial concept to final
+                        implementation, ensuring optimal design solutions and
+                        performance efficiency.
                       </div>
 
                       <div onClick={() => setConsultancy(false)}>

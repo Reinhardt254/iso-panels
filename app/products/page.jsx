@@ -373,11 +373,15 @@ const Products = () => {
 
         <div class="products-contact-container">
           <div class="products-contact-h1">
-            WOULD YOU LIKE TO KNOW IF WE PROVIDE A SPECIFIC SERVICE OR PRODUCT?
+            HAVE A QUESTION? LETS DISCUSS 
           </div>
 
-          <div class="products-contact-h2">
-            REACH OUT TO US SO WE CAN PERSONALLY ASSIST YOU
+          <div class="products-contact-h1">
+            YOUR BUSINESS NEEDS &
+          </div>
+
+          <div class="products-contact-h1">
+            HOW WE CAN HELP
           </div>
 
           <div class="products-contact-button">

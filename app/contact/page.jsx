@@ -19,6 +19,10 @@ const Contact = () => {
           />
           <div class="contact-layout-text">Contact</div>
         </div>
+
+        <div>
+          <div></div>
+        </div>
       </div>
     </div>
   );

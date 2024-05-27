@@ -31,8 +31,8 @@
 .about-layout-image {
   width: 100%;
   height: auto;
-  max-height: 75vh;
-  filter: brightness(60%);
+  max-height: 80vh;
+  filter: brightness(70%);
 }
 
 .about-layout-text {

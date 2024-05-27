@@ -60,8 +60,8 @@ a {
 .home-layout-image {
   width: 100%;
   height: auto;
-  max-height: 75vh;
-  filter: brightness(30%);
+  max-height: 80vh;
+  filter: brightness(80%);
 }
 
 .home-layout-content {

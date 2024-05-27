@@ -9,6 +9,7 @@ import "../styles/footer.css";
 import "../styles/productscategories.css";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
+import { fetchData } from "@/utils/tools";
 
 const font = Roboto({ subsets: ["latin"], weight: "300" });
 
@@ -17,7 +18,10 @@ export const metadata = {
   description: "ISO PANELS",
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout ({ children }) {
+  const data = await fetchData();
+
+  console.log(data);  
   return (
     <html lang="en">
       <body className={font.className}>

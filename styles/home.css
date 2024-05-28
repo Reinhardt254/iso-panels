@@ -268,7 +268,7 @@ a {
 }
 
 .home-about-image {
-  width: 55vw;
+  width: 50vw;
   height: auto;
   padding: 0;
 }
@@ -282,6 +282,7 @@ a {
   padding-left: 0rem;
   padding-top: 1.2rem;
   text-align: start;
+
 }
 
 .home-about-button {
@@ -368,7 +369,7 @@ a {
   }
   
   .home-about-image {
-    width: 45vw;
+    width: 40vw;
     height: auto;
   }
 
@@ -379,8 +380,8 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-right: 15%;
-    padding-left: 5%;
+    padding-right: 12%;
+    padding-left: 7%;
     padding-bottom: 0px;
   }
 
@@ -530,7 +531,7 @@ a {
   .home-why-choose-us {
     padding-left: 0rem;
     padding-right: 0rem;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     /* background-color: #ffffff; */
   }
 }

@@ -31,16 +31,22 @@ const HomePage = () => {
             <div class="home-about-container">
               <div class="home-about-image-container small-hidden">
                 <img
-                  src="./homeabout.jpg"
+                  src="./mobile/homeaboutmob.jpg"
                   alt="about-image"
-                  class="home-about-image-lg1"
+                  class="home-about-image lg"
                 />
 
-                <img
+               <img
+                  src="./homeabout.jpg"
+                  alt="about-image"
+                  class="home-about-image xl"
+                />
+
+                {/* <img
                   src="./homeabout2.jpg"
                   alt="about-image"
                   class="home-about-image-lg2"
-                />
+                /> */}
               </div>
               <div class="home-about-text">
                 <div class="home-about-heading">About ISO Panels</div>

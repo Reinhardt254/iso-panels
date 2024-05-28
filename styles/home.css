@@ -61,7 +61,7 @@ a {
   width: 100%;
   height: auto;
   max-height: 80vh;
-  filter: brightness(80%);
+  filter: brightness(100%);
 }
 
 .home-layout-content {
@@ -484,7 +484,7 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-bottom: 0rem;
+    padding-bottom: 2rem;
     padding-top: 1rem;
     padding-right: 0.8rem;
     padding-left: 0.8rem;

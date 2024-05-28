@@ -19,9 +19,9 @@ export const metadata = {
 };
 
 export default async function RootLayout ({ children }) {
-  const data = await fetchData();
+  // const data = await fetchData();
 
-  console.log(data);  
+  // console.log(data);  
   return (
     <html lang="en">
       <body className={font.className}>

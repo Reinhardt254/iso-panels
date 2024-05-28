@@ -29,25 +29,13 @@ const HomePage = () => {
 
           <div class="home-about">
             <div class="home-about-container">
-              <div class="home-about-image-container small-hidden">
+
                 <img
                   src="./mobile/homeaboutmob.jpg"
                   alt="about-image"
-                  class="home-about-image lg"
+                  class="home-about-image small-hidden"
                 />
 
-               <img
-                  src="./homeabout.jpg"
-                  alt="about-image"
-                  class="home-about-image xl"
-                />
-
-                {/* <img
-                  src="./homeabout2.jpg"
-                  alt="about-image"
-                  class="home-about-image-lg2"
-                /> */}
-              </div>
               <div class="home-about-text">
                 <div class="home-about-heading">About ISO Panels</div>
                 <div class="paragraph about-p">

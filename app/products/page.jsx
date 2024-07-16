@@ -373,7 +373,7 @@ const Products = () => {
 
         <div class="products-contact-container">
           <div class="products-contact-h1">
-            HAVE A QUESTION? LETS DISCUSS 
+            HAVE A QUESTION? LETS DISCUSS
           </div>
 
           <div class="products-contact-h1">
